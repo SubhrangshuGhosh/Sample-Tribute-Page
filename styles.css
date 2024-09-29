@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(27, 142, 37, 0.423);
+    color: #130101;
+    line-height: 1.6;
+}
+
+#main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #14f30074;
+    box-shadow: 13px 10px 10px rgba(0, 0, 0, 0.759);
+    border-radius: 2%;
+}
+
+#title {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #0801017f;
+    text-align: center;
+}
+
+#img-div {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#image {
+    display: block;
+    max-width: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+    text-align: center;
+}
+
+#accomplishments-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.accomplishments-list li {
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #1b1b32;
+}
+
+#tribute-info {
+    margin-top: 30px;
+}
+
+#tribute-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #1b1b32;
+    text-decoration: none;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
